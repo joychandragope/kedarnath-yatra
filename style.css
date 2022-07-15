@@ -43,6 +43,26 @@ body {
 }
 .menu-list li:hover {
   color: blue;
+  cursor: pointer;
+}
+.drop-down li,
+a {
+  list-style: none;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+.drop-down li:hover {
+  background-color: red;
+}
+.drop-down {
+  position: absolute;
+  margin-top: 10px;
+  display: none;
+}
+.menu-bar > ul > li:hover > ul {
+  display: block;
+  text-decoration: none;
 }
 .header-text {
   color: white;
