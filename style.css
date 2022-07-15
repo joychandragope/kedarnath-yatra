@@ -17,6 +17,33 @@ body {
     url(image/kedarnath-india-temple-hindu-temple.jpg);
   background-size: cover;
 }
+.title-logo {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.title-heading {
+  font-family: Georgia;
+  margin: 5px 25px;
+  color: #f0b6e8;
+  letter-spacing: 15px;
+}
+.menu-bar {
+  margin-right: 80px;
+}
+.menu-list {
+  list-style: none;
+  display: flex;
+}
+.menu-list li {
+  padding: 25px 40px;
+  font-family: Georgia;
+  font-size: 22px;
+  font-weight: bold;
+}
+.menu-list li:hover {
+  color: blue;
+}
 .header-text {
   color: white;
   width: 30%;
